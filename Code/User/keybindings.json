@@ -1,0 +1,100 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Cursor/line manipulation:
+    {
+       "key": "ctrl+k",                    "command": "spaceBlockJumper.moveUp",
+                                           "when":    "vim.mode != 'Insert'",
+    },
+
+    {
+        "key": "ctrl+j",                   "command": "spaceBlockJumper.moveDown",
+                                           "when":    "vim.mode != 'Insert'",
+    },
+
+    {
+       "key": "ctrl+k",                    "command": "spaceBlockJumper.selectUp",
+                                           "when":    "vim.mode == 'Visual' && editorTextFocus"
+    },
+
+    {
+       "key": "ctrl+j",                    "command": "spaceBlockJumper.selectDown",    
+                                           "when":    "vim.mode == 'Visual' && editorTextFocus"
+    },
+  
+   {
+       "key": "alt+j",                      "command": "editor.action.moveLinesDownAction",
+                                            "when":    "editorTextFocus && vim.mode == 'Normal'",
+   },
+   
+    {
+        "key": "alt+j",                      "command": "editor.action.moveLinesDownAction",
+                                           "when":    "editorTextFocus && vim.mode == 'Visual'",
+    },
+
+  {
+       "key": "alt+k",                      "command": "editor.action.moveLinesUpAction",
+                                            "when":    "editorTextFocus && vim.mode == 'Normal'",
+   },
+
+    {
+       "key": "alt+k",                      "command": "editor.action.moveLinesUpAction",
+                                            "when":    "editorTextFocus && vim.mode == 'Visual'",
+   },  
+       
+   {
+        "key": "ctrl+alt+shift+j",           "command": "editor.action.copyLinesDownAction",
+                                            "when":     "editorTextFocus && vim.mode == 'Normal'",
+    },
+
+    {
+        "key": "ctrl+alt+shift+k",           "command": "editor.action.copyLinesUpAction",
+                                            "when":     "editorTextFocus && vim.mode == 'Normal'",
+    },
+
+    // Multi cursor configuration:
+
+    {
+        "key": "ctrl+alt+j",                "command": "editor.action.insertCursorBelow",
+                                            "when":    "editorTextFocus && vim.mode == 'Normal'",
+    },
+
+    {
+        "key": "ctrl+alt+k",                "command": "editor.action.insertCursorAbove",
+                                            "when":    "editorTextFocus && vim.mode == 'Normal'",
+    },
+
+    // Window navigation:
+    { 
+        "key": "ctrl+w",                    "command": "workbench.action.closeActiveEditor" 
+    },
+
+    {
+       "key": "ctrl+alt+s",                 "command": "workbench.action.files.saveAll",
+    },
+
+    {
+        "key": "ctrl+t",                   "command": "workbench.action.terminal.focus",
+                                           "when":    "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+t",                   "command": "workbench.action.focusActiveEditorGroup",
+                                           "when":    "terminalFocus"
+    },
+
+    { 
+       "key": "alt+l",                     "command": "workbench.action.navigateRight",
+    },
+
+    { 
+       "key": "alt+h",                     "command": "workbench.action.navigateLeft",
+    },
+
+    {
+        "key": "ctrl+alt+h",               "command": "workbench.action.moveEditorToPreviousGroup",
+    },
+    
+    {
+        "key": "ctrl+alt+l",                "command": "workbench.action.moveEditorToNextGroup",
+    }
+]

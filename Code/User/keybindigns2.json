@@ -1,0 +1,146 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+       "key": "ctrl+t",
+       "command": "workbench.action.terminal.focus",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "ctrl+t",
+       "command": "workbench.action.focusActiveEditorGroup",
+       "when": "terminalFocus"
+    },
+
+    {
+       "key": "ctrl+up",
+       "command": "spaceBlockJumper.moveUp",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "ctrl+down",
+       "command": "spaceBlockJumper.moveDown",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "shift+ctrl+up",
+       "command": "spaceBlockJumper.selectUp",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "shift+ctrl+down",
+       "command": "spaceBlockJumper.selectDown",
+       "when": "editorTextFocus"
+    },
+
+    { 
+       "key": "alt+right",             
+       "command": "workbench.action.navigateRight",
+    },
+
+    { 
+       "key": "alt+left",             
+       "command": "workbench.action.navigateLeft",
+    },
+
+    {
+       "key": "alt+h",
+       "command": "cursorLeft",
+    },
+
+    {
+       "key": "alt+j",
+       "command": "cursorDown",
+    },
+
+    {
+       "key": "alt+k",
+       "command": "cursorUp",
+    },
+    
+    {
+       "key": "alt+l",
+       "command": "cursorRight",
+    },
+
+    {
+       "key": "ctrl+alt+h",
+       "command": "cursorWordStartLeft",
+       "when": "textInputFocus",
+    },
+
+    {
+       "key": "ctrl+alt+j",
+       "command": "spaceBlockJumper.moveDown",
+       "when": "editorTextFocus",
+    },
+
+    {
+       "key": "ctrl+alt+k",
+       "command": "spaceBlockJumper.moveUp",
+       "when": "editorTextFocus",
+    },
+    
+    {
+       "key": "ctrl+alt+l",
+       "command": "cursorWordStartRight",
+       "when": "textInputFocus",
+    },
+
+    {
+      "key": "shift+ctrl+alt+k",
+      "command": "spaceBlockJumper.selectUp",
+      "when": "editorTextFocus"
+   },
+
+   {
+      "key": "shift+ctrl+alt+j",
+      "command": "spaceBlockJumper.selectDown",
+      "when": "editorTextFocus"
+   },
+   
+   {
+      "key": "ctrl+alt+up",
+      "command": "editor.action.insertCursorAbove",
+      "when": "editorTextFocus",
+   },
+
+   {
+      "key": "ctrl+alt+down",
+      "command": "editor.action.insertCursorBelow",
+      "when": "editorTextFocus",
+   },
+
+   {
+      "key": "shift+alt+l",
+      "command": "cursorRightSelect",
+      "when": "textInputFocus",
+   },
+
+   {
+      "key": "shift+alt+h",
+      "command": "cursorLeftSelect",
+      "when": "textInputFocus",
+   },
+
+   {
+      "key": "shift+alt+k",
+      "command": "cursorUpSelect",
+      "when": "textInputFocus",
+   },
+
+   {
+      "key": "shift+alt+j",
+      "command": "cursorDownSelect",
+      "when": "textInputFocus",
+   },
+
+   {
+      "key": "ctrl+shift+alt+h",
+      "command": "cursorWordStartLeftSelect",
+      "when": "textInputFocus",
+   },
+ ]

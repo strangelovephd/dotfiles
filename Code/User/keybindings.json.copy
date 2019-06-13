@@ -1,0 +1,59 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+       "key": "ctrl+t",
+       "command": "workbench.action.terminal.focus",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "ctrl+t",
+       "command": "workbench.action.focusActiveEditorGroup",
+       "when": "terminalFocus"
+    },
+
+    {
+       "key": "ctrl+up",
+       "command": "spaceBlockJumper.moveUp",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "ctrl+down",
+       "command": "spaceBlockJumper.moveDown",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "shift+ctrl+up",
+       "command": "spaceBlockJumper.selectUp",
+       "when": "editorTextFocus"
+    },
+
+    {
+       "key": "shift+ctrl+down",
+       "command": "spaceBlockJumper.selectDown",
+       "when": "editorTextFocus"
+   },
+   {
+      "key": "ctrl+alt+s",
+      "command": "workbench.action.files.saveAll"
+   },
+   {
+      "key": "alt+left",
+      "command": "workbench.action.navigateLeft"
+  },
+  {
+      "key": "alt+right",
+      "command": "workbench.action.navigateRight"
+  },
+  {
+      "key": "alt+up",
+      "command": "workbench.action.navigateUp"
+  },
+  {
+      "key": "alt+down",
+      "command": "workbench.action.navigateDown"
+  }
+
+ ]
